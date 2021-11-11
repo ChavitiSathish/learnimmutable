@@ -1,0 +1,40 @@
+About Immutable
+------------------------------------------------------------
+Immuatable approach involves replacing the components rather than modifying to avoid the problems involved in mutable approach.
+
+Steps involved in Achieving the Immutability
+------------------------------------------------------------
+Create two different images.
+    -> Nginx 1
+    -> Nginx 2
+Create a Launch Template.
+    -> Choose image
+    -> Choose Security Group
+Create an Autoscaling group.
+    -> Choose Launch Template
+    -> Choose Version
+    -> Choose Subnets
+    -> Attach a LoadBalancer
+    -> Customize the Settings
+    -> Choose the instances count.
+    -> After customizing check the created targets and health status.
+    -> Check the created targets and open the load balancer to check the content.
+
+How to change the content without touching the Machine.
+-------------------------------------------------------------
+    -> Go to auto scaling group and click on Instance refresh.
+    -> Before that go to launch template and modify template.
+    -> Select the desired Image.
+    -> Go to Auto scaling group and in launch template change the version.
+    -> Now click on the Instance refresh and customize settings.
+    -> Old instances gets terminated and it will create the other new instances.
+
+
+
+
+
+
+
+
+
+
