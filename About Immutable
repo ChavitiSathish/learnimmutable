@@ -29,6 +29,13 @@ How to change the content without touching the Machine.
     -> Now click on the Instance refresh and customize settings.
     -> Old instances gets terminated and it will create the other new instances.
 
+How to achieve immutability in code
+------------------------------------------------------
+    -> Make Mutable code ready for Immutable
+    -> Create release pipelines
+    -> Create Ami
+
+
 
 
 
