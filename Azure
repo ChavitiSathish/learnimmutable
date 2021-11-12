@@ -1,0 +1,16 @@
+Session 59,
+Azure is a CI tool.
+
+-> Create a Azure Pipeline
+    -> Create Azure Starter Pipeline
+-> Trigger on Tag creation
+    -> Refer for Yaml Schema
+    -> Run the Steps
+-> Create Authentication
+    -> Search for Personal Acess token
+    -> Create token there.
+    -> Add PAT to server.
+-> Create Pipelines
+    -> Create Individual Pipelines for each component
+
+
